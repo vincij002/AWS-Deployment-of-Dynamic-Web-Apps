@@ -70,9 +70,10 @@ Follow these steps to deploy the dynamic web application on AWS:
 
 ## Technologies Used
 - CI/CD: GitHub Actions
-- Cloud Services: AWS
+- Cloud Services: AWS (Route 53, EC2, S3, ECR, ECS, DynamoDB, IAM, etc.)
 - Infrastructure as Code: Terraform
 - Containerization: Docker, Amazon Elastic Container Registry (ECR), Amazon Elastic Container Service (ECS)
 - Version Control: Git, GitHub
 - Scripting: Bash
+- Credential Management: AWS Secrets Manager, GitHub Actions Repository Secrets
 
